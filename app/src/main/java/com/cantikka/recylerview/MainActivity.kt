@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
             Product("Iphone 16Pro Hitam", "Rp 26.000.000", R.drawable.iphone16promaxhitam),
             Product("Iphone 16Pro Putih", "Rp 26.500.000", R.drawable.iphone16promaxputih),
             Product("Iphone 16Pro Titanium", "Rp 27.000.000", R.drawable.iphone16promaxtitanium)
-            // tambahkan produk lainnya
         )
 
         productAdapter = ProductAdapter(productList)
